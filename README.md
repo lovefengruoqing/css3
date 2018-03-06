@@ -4,7 +4,7 @@ description: the funny css3 effect.
 
 ## the effect: 
 
-index —— [https://github.com/lovefengruoqing/css3/](https://github.com/lovefengruoqing/css3/index 'click forward')
+index —— [http://www.wuzhiqin.tk/css3/](http://www.wuzhiqin.tk/css3/index 'click forward')
 
 ## collections:
 
