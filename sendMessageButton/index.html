@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>send message button</title>
+  <style>
+    section{
+      margin: 100px auto;
+      text-align: center;
+    }
+    input{
+      width: 400px;
+      height: 100px;
+      font-size: 50px;
+    }
+  </style>
+</head>
+<body>
+  <section><input type="button" id="send" value="发送验证码"></section>
+  <script type="text/javascript">
+    window.onload=function(){
+	    let send=document.getElementById('send'),
+	        times=60,
+	        timer=null;
+	    send.onclick=function(){
+	      // 计时开始
+	      send.disabled = "disabled";
+          timer = setInterval(function(){
+              times--;
+              if(times<=0){
+                  send.removeAttribute('disabled');
+        	      send.value = '发送验证码';
+        	      clearInterval(timer);
+        	      times = 60;
+              }else{
+                  send.value = times + '秒后重试';   
+              }
+          },1000);
+	    } 
+	}
+  </script>
+</body>
+</html>

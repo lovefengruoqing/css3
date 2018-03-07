@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.notice {
+  width: 298px;
+  height: 98px;
+  margin: 10px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.notice-tit {
+  height: 27px;
+  position: relative;
+  background: #c9c9c9;
+}
+
+.notice-tit ul {
+  position: absolute;
+  width: 301px;
+  left: -1px;
+  background: #c9c9c9;
+}
+
+.notice-tit ul li {
+  float: left;
+  width: 58px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  overflow: hidden;
+  background: #dfdede;
+  padding: 0 1px;
+  border-bottom: 1px solid #eee;
+}
+
+.notice-tit li.select {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  padding: 0;
+  font-weight: bold;
+}
+
+.notice li a:link,
+.notice li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.notice li a:hover {
+  color: #f90;
+}
+
+.notice-con .mod {
+  margin: 10px 6px;
+  display: none;
+}
+
+.notice-con .mod:nth-child(1) {
+  display: block;
+}
+
+.notice-con .mod ul li {
+  float: left;
+  width: 143px;
+  height: 25px;
+  overflow: hidden;
+}
