@@ -12,4 +12,5 @@ index —— [http://www.wuzhiqin.tk/css3/](http://www.wuzhiqin.tk/css3/ 'click 
 2. css3 table switch: [http://www.wuzhiqin.tk/css3/tab-switch/index.html](http://www.wuzhiqin.tk/css3/tab-switch/ "click forward")
 3. css3 table switch delay: [http://www.wuzhiqin.tk/css3/tab-switch-delay/index.html](http://www.wuzhiqin.tk/css3/tab-switch-delay/ "click forward")
 4. css3 table switch delay auto: [http://www.wuzhiqin.tk/css3/tab-switch-delay-auto/index.html](http://www.wuzhiqin.tk/css3/tab-switch-delay-auto/ "click forward")
-5. send message button: [http://www.wuzhiqin.tk/css3/sendMessageButton/](http://www.wuzhiqin.tk/css3/sendMessageButton/ "click forward")
+5. send message button: [http://www.wuzhiqin.tk/css3/sendMessageButton/index.html](http://www.wuzhiqin.tk/css3/sendMessageButton/ "click forward")
+6. picture auto play: [http://www.wuzhiqin.tk/css3/picture-auto/index.html](http://www.wuzhiqin.tk/css3/picture-auto/ "click forward")
